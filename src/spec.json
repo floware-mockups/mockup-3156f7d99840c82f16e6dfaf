@@ -189,7 +189,8 @@
         "Sintesi esito",
         "Criticità"
       ],
-      "statusColumn": 5
+      "statusColumn": 5,
+      "view": "kanban"
     },
     {
       "id": "programmazione",
