@@ -1,0 +1,349 @@
+{
+  "title": "Gestione delle ispezioni comunali",
+  "description": "Pianifica e monitora le ispezioni anagrafiche, elettorali e di stato civile. Registra gli esiti, segnala scadenze e criticità e prepara bozze di richieste di chiarimenti.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Quadro sintetico delle ispezioni programmate, concluse, scadute e con criticità.",
+      "metrics": [
+        {
+          "label": "Comuni da ispezionare",
+          "value": "12"
+        },
+        {
+          "label": "Programmate",
+          "value": "8"
+        },
+        {
+          "label": "Concluse",
+          "value": "4"
+        },
+        {
+          "label": "Scadute",
+          "value": "2"
+        },
+        {
+          "label": "Con criticità",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Comune",
+        "Ambito",
+        "Data prevista",
+        "Stato",
+        "Esito",
+        "Avviso"
+      ],
+      "rows": [
+        [
+          "Lumo Selva",
+          "Anagrafica",
+          "12/03/2026",
+          "Programmata",
+          "Da registrare",
+          "—"
+        ],
+        [
+          "Vela Brina",
+          "Elettorale",
+          "18/03/2026",
+          "Programmata",
+          "Da registrare",
+          "—"
+        ],
+        [
+          "Nubi Riva",
+          "Stato civile",
+          "21/03/2026",
+          "Scaduta",
+          "Da registrare",
+          "Data prevista superata"
+        ],
+        [
+          "Lumo Fonte",
+          "Anagrafica",
+          "24/03/2026",
+          "Conclusa",
+          "Regolare",
+          "—"
+        ],
+        [
+          "Vela Bosco",
+          "Elettorale",
+          "25/03/2026",
+          "Conclusa",
+          "Con criticità",
+          "Chiarimenti da preparare"
+        ],
+        [
+          "Nubi Serra",
+          "Stato civile",
+          "28/03/2026",
+          "Scaduta",
+          "Da registrare",
+          "Data prevista superata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "ispezioni",
+      "title": "Registro ispezioni",
+      "description": "Consulta e filtra le ispezioni per comune, ambito, periodo, stato ed esito. Registra una nuova pianificazione o aggiorna l'esito di un'ispezione.",
+      "metrics": [
+        {
+          "label": "Ispezioni nell'anno",
+          "value": "12"
+        },
+        {
+          "label": "Da completare",
+          "value": "8"
+        },
+        {
+          "label": "Esiti da verificare",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Comune",
+        "Ambito",
+        "Data prevista",
+        "Data svolta",
+        "Funzionario",
+        "Stato",
+        "Sintesi esito",
+        "Criticità"
+      ],
+      "rows": [
+        [
+          "Lumo Selva",
+          "Anagrafica",
+          "12/03/2026",
+          "—",
+          "Vela Quercia",
+          "Programmata",
+          "—",
+          "—"
+        ],
+        [
+          "Vela Brina",
+          "Elettorale",
+          "18/03/2026",
+          "—",
+          "Nubi Cedro",
+          "Programmata",
+          "—",
+          "—"
+        ],
+        [
+          "Nubi Riva",
+          "Stato civile",
+          "21/03/2026",
+          "—",
+          "Lumo Pino",
+          "Scaduta",
+          "—",
+          "—"
+        ],
+        [
+          "Lumo Fonte",
+          "Anagrafica",
+          "24/03/2026",
+          "24/03/2026",
+          "Vela Quercia",
+          "Conclusa",
+          "Registrazioni verificate",
+          "Nessuna rilevata"
+        ],
+        [
+          "Vela Bosco",
+          "Elettorale",
+          "25/03/2026",
+          "25/03/2026",
+          "Nubi Cedro",
+          "Conclusa",
+          "Verifica delle procedure svolta",
+          "Aggiornamento di una registrazione da chiarire"
+        ],
+        [
+          "Nubi Serra",
+          "Stato civile",
+          "28/03/2026",
+          "—",
+          "Lumo Pino",
+          "Scaduta",
+          "—",
+          "—"
+        ]
+      ],
+      "form": [
+        "Comune",
+        "Ambito",
+        "Data prevista",
+        "Data svolta",
+        "Funzionario",
+        "Stato",
+        "Sintesi esito",
+        "Criticità"
+      ]
+    },
+    {
+      "id": "programmazione",
+      "title": "Programmazione annuale",
+      "description": "Verifica la copertura annuale dei comuni e pianifica le visite per ambito, assegnando un funzionario e una data prevista.",
+      "metrics": [
+        {
+          "label": "Comuni in piano",
+          "value": "12"
+        },
+        {
+          "label": "Copertura pianificata",
+          "value": "67%"
+        },
+        {
+          "label": "Da programmare",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Comune",
+        "Ambito",
+        "Anno",
+        "Data prevista",
+        "Funzionario",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo Selva",
+          "Anagrafica",
+          "2026",
+          "12/03/2026",
+          "Vela Quercia",
+          "Programmata"
+        ],
+        [
+          "Vela Brina",
+          "Elettorale",
+          "2026",
+          "18/03/2026",
+          "Nubi Cedro",
+          "Programmata"
+        ],
+        [
+          "Nubi Riva",
+          "Stato civile",
+          "2026",
+          "21/03/2026",
+          "Lumo Pino",
+          "Da riprogrammare"
+        ],
+        [
+          "Lumo Fonte",
+          "Anagrafica",
+          "2026",
+          "24/03/2026",
+          "Vela Quercia",
+          "Conclusa"
+        ],
+        [
+          "Vela Bosco",
+          "Elettorale",
+          "2026",
+          "25/03/2026",
+          "Nubi Cedro",
+          "Conclusa"
+        ],
+        [
+          "Nubi Serra",
+          "Stato civile",
+          "2026",
+          "28/03/2026",
+          "Lumo Pino",
+          "Da riprogrammare"
+        ]
+      ],
+      "form": [
+        "Comune",
+        "Ambito",
+        "Anno",
+        "Data prevista",
+        "Funzionario",
+        "Stato"
+      ]
+    },
+    {
+      "id": "chiarimenti",
+      "title": "Richieste di chiarimenti",
+      "description": "Prepara bozze da verificare prima dell'invio: ai funzionari per ispezioni scadute e al comune per criticità rilevate. Le bozze non vengono inviate automaticamente.",
+      "metrics": [
+        {
+          "label": "Bozze per funzionari",
+          "value": "2"
+        },
+        {
+          "label": "Bozze per il comune",
+          "value": "1"
+        },
+        {
+          "label": "In attesa di verifica",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Comune",
+        "Ambito",
+        "Motivo",
+        "Destinatario",
+        "Data ispezione",
+        "Stato bozza",
+        "Sintesi richiesta"
+      ],
+      "rows": [
+        [
+          "Nubi Riva",
+          "Stato civile",
+          "Ispezione non svolta entro la data prevista",
+          "Funzionario: Lumo Pino",
+          "21/03/2026",
+          "Da verificare",
+          "Richiedere le ragioni del mancato svolgimento e una nuova data proposta"
+        ],
+        [
+          "Nubi Serra",
+          "Stato civile",
+          "Ispezione non svolta entro la data prevista",
+          "Funzionario: Lumo Pino",
+          "28/03/2026",
+          "Da verificare",
+          "Richiedere le ragioni del mancato svolgimento e una nuova data proposta"
+        ],
+        [
+          "Vela Bosco",
+          "Elettorale",
+          "Criticità rilevata nell'esito",
+          "Comune: Vela Bosco",
+          "25/03/2026",
+          "Da verificare",
+          "Richiedere chiarimenti sull'aggiornamento della registrazione"
+        ]
+      ],
+      "form": [
+        "Comune",
+        "Ambito",
+        "Motivo",
+        "Destinatario",
+        "Data ispezione",
+        "Stato bozza",
+        "Sintesi richiesta"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "blu-istituzionale",
+    "fonts": "istituzionale"
+  }
+}
