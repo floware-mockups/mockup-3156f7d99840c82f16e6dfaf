@@ -188,7 +188,8 @@
         "Stato",
         "Sintesi esito",
         "Criticità"
-      ]
+      ],
+      "statusColumn": 5
     },
     {
       "id": "programmazione",
@@ -345,5 +346,15 @@
   "theme": {
     "palette": "blu-istituzionale",
     "fonts": "istituzionale"
-  }
+  },
+  "custom": [
+    {
+      "name": "FiltriRegistroIspezioni",
+      "title": "Filtri del Registro ispezioni",
+      "description": "Filtri combinabili e risultati con distinzione tra svolte e da svolgere.",
+      "role": "section",
+      "pageId": "ispezioni",
+      "position": "top"
+    }
+  ]
 }
