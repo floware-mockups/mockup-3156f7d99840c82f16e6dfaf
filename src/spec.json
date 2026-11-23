@@ -155,7 +155,7 @@
           "24/03/2026",
           "Vela Quercia",
           "Conclusa",
-          "Registrazioni verificate",
+          "Registrazioni verificate; verbale n. 04/2026 del 24/03/2026.",
           "Nessuna rilevata"
         ],
         [
@@ -165,7 +165,7 @@
           "25/03/2026",
           "Nubi Cedro",
           "Conclusa",
-          "Verifica delle procedure svolta",
+          "Verifica delle procedure svolta; verbale n. 05/2026 del 25/03/2026.",
           "Aggiornamento di una registrazione da chiarire"
         ],
         [
@@ -301,7 +301,8 @@
         "Destinatario",
         "Data ispezione",
         "Stato bozza",
-        "Sintesi richiesta"
+        "Sintesi richiesta",
+        "Nota"
       ],
       "rows": [
         [
@@ -311,7 +312,8 @@
           "Funzionario: Lumo Pino",
           "21/03/2026",
           "Da verificare",
-          "Richiedere le ragioni del mancato svolgimento e una nuova data proposta"
+          "Richiedere le ragioni del mancato svolgimento e una nuova data proposta",
+          "—"
         ],
         [
           "Nubi Serra",
@@ -320,7 +322,8 @@
           "Funzionario: Lumo Pino",
           "28/03/2026",
           "Da verificare",
-          "Richiedere le ragioni del mancato svolgimento e una nuova data proposta"
+          "Richiedere le ragioni del mancato svolgimento e una nuova data proposta",
+          "—"
         ],
         [
           "Vela Bosco",
@@ -329,7 +332,8 @@
           "Comune: Vela Bosco",
           "25/03/2026",
           "Da verificare",
-          "Richiedere chiarimenti sull'aggiornamento della registrazione"
+          "Richiedere chiarimenti sull'aggiornamento della registrazione",
+          "—"
         ]
       ],
       "form": [
@@ -355,6 +359,14 @@
       "role": "section",
       "pageId": "ispezioni",
       "position": "top"
+    },
+    {
+      "name": "NotaChiarimenti",
+      "title": "Nota di richiesta chiarimenti",
+      "description": "Generazione della nota dalla riga, modifica, salvataggio in memoria e verifica della bozza.",
+      "role": "cell",
+      "pageId": "chiarimenti",
+      "column": "Sintesi richiesta"
     }
   ]
 }
